@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>376914948026-39vj68gf8tl23qh0ti3qjhe6dep0o12n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.376914948026-39vj68gf8tl23qh0ti3qjhe6dep0o12n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCAyFvb-I50EqvA8q9VYNleGS0sx5QpQ9Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>376914948026</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Gabriel-Palhares.firebase-auth</string>
+	<key>PROJECT_ID</key>
+	<string>fir-auth-82f88</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-auth-82f88.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:376914948026:ios:bffe94e1573ca4b36b3783</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-auth-82f88.firebaseio.com</string>
+</dict>
+</plist>
