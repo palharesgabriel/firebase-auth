@@ -13,6 +13,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .red
+        
+//        AuthManager.shared.register(email: "gabriel@gabriel.com", password: "delicia1") { (success) in
+//            if success {
+//                print("cadastrou")
+//            }
+//        }
+        
+        
+        AuthManager.shared.login(email: "gabriel@gabriel.com", password: "delicia1") { (success) in
+            if success {
+                print("logado")
+            }
+        }
+        
     }
 
 

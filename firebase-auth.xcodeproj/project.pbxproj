@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6C928C4E21B736A08C5746AC /* Pods_firebase_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E5E1B9ED5442BF4181A31E /* Pods_firebase_auth.framework */; };
+		AB8F077F238345E6002F8012 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F077E238345E6002F8012 /* AuthManager.swift */; };
 		ABBCFBD02383168300E56E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCFBCF2383168300E56E91 /* AppDelegate.swift */; };
 		ABBCFBD42383168300E56E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCFBD32383168300E56E91 /* ViewController.swift */; };
 		ABBCFBD92383168500E56E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBCFBD82383168500E56E91 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		68AEDE6F2957EDE6F6B449EC /* Pods-firebase-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-auth.debug.xcconfig"; path = "Target Support Files/Pods-firebase-auth/Pods-firebase-auth.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E5E1B9ED5442BF4181A31E /* Pods_firebase_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8F077E238345E6002F8012 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		ABBCFBCC2383168300E56E91 /* firebase-auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBCFBCF2383168300E56E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABBCFBD32383168300E56E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +48,6 @@
 				68AEDE6F2957EDE6F6B449EC /* Pods-firebase-auth.debug.xcconfig */,
 				C2C2C26900EA01B3697E1098 /* Pods-firebase-auth.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +78,7 @@
 				ABBCFBDA2383168500E56E91 /* LaunchScreen.storyboard */,
 				ABBCFBDD2383168500E56E91 /* Info.plist */,
 				ABBCFBE323831B0500E56E91 /* GoogleService-Info.plist */,
+				AB8F077E238345E6002F8012 /* AuthManager.swift */,
 			);
 			path = "firebase-auth";
 			sourceTree = "<group>";
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBCFBD42383168300E56E91 /* ViewController.swift in Sources */,
+				AB8F077F238345E6002F8012 /* AuthManager.swift in Sources */,
 				ABBCFBD02383168300E56E91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
